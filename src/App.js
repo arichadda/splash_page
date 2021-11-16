@@ -5,9 +5,17 @@ import vid from './vid.mp4'
 function App() {
   return (
     <div className="App">
-      <video autoPlay height='85%' width='85%'>
+      <div
+          dangerouslySetInnerHTML={{
+            __html: `<video className="app__backgroundVideo" autoplay loop muted playsinline height='85%' width='85%'>
+              <source src=${vid} type="video/mp4" />
+              Your browser does not support the video tag.
+          </video>`,
+          }}
+        />
+      {/* <video autoPlay muted height='85%' width='85%'>
         <source src= { vid } type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-      </video>
+      </video> */}
     </div>
   );
 }
