@@ -98,28 +98,28 @@ const LandingPage = () => {
         />
         <InfoCard
           img_src={PhotoTwo}
-          price="0.1 WETH"
+          price="0.1 ETH"
           link_func={redirectFunctionTwo}
           heading="002: Vox Clamantis"
           body="The Founder's Collection includes the first-ever NFTs of the College. 002 is the voice in the woods and the second installment."
         />
         <InfoCard
           img_src={PhotoThree}
-          price="0.1 WETH"
+          price="0.1 ETH"
           link_func={redirectFunctionThree}
           heading="003: In Deserto"
           body="The Founder’s Collection includes the first-ever NFTs of the College. 003 is the hub of Hanover and the third installment."
         />
         <InfoCard
           img_src={PhotoFour}
-          price="0.05 WETH"
+          price="SOLD"
           link_func={redirectFunctionFour}
           heading="004: A Hanover Spring"
           body="The Founder’s Collection includes the first-ever NFTs of the College. 004 is the cornerstone of campus and the fourth installment."
         />
         <InfoCard
           img_src={PhotoFive}
-          price="0.05 WETH"
+          price="0.05 ETH"
           link_func={redirectFunctionFive}
           heading="005: Homecoming"
           body="The Founder’s Collection includes the first-ever NFTs of the College. 005 is the celebration of the continuum and the fifth installment."
